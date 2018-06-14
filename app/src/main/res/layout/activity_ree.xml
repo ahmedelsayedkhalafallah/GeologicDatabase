@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorPrimary"
+    tools:context="com.example.ahmed.geologicdatabase.REE"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="REE"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="The rare earth elements are a moderately abundant group of 17 elements comprising the 15 lanthanides, scandium, and yttrium.
+The elements range in crustal abundance from cerium, the 25th most abundant element of the 78 common elements in the earth`s crust at 60 part per million (ppm) , to thulium and lutetium, the least abundant rare earth elements at about 0.5 ppm . in rock forming minerals, rare earths typically occur in compounds as trivalent anions.
+REE are naturally occurring non-toxic materials and vital to many modern technologies.  The rare earths or rare-earth elements (REEs) Are found in nature as mixtures of the different Elements in certain ratios, which can show variations depending on the type of ore or the geographical location of the deposit.
+Costs are then shared by all REEs extracted from a given resource. Unfortunately, a market in balance is very difficult to achieve because of differences in demand due to technological evolutions in application."/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:layout_gravity="center_vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Niabium"
+            android:onClick="openN"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tantalum"
+            android:onClick="openTa"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tin"
+            android:onClick="openTi"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tungesten"
+            android:onClick="openTu"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Uranium"
+            android:onClick="openU"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

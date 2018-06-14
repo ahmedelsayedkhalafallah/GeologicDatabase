@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "775029552322",
+    "firebase_url": "https://geologicdatabase.firebaseio.com",
+    "project_id": "geologicdatabase",
+    "storage_bucket": "geologicdatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775029552322:android:75f7b06131856be3",
+        "android_client_info": {
+          "package_name": "com.example.ahmed.geologicdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775029552322-v07rfltss65du8smvggu0bkcieq1tik5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahmed.geologicdatabase",
+            "certificate_hash": "b4443f12fe7e4e75e2eead9b76cce0091c6d592b"
+          }
+        },
+        {
+          "client_id": "775029552322-ptjp3cttmk9gcmkmp547ut7icl9nntkk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "775029552322-ptjp3cttmk9gcmkmp547ut7icl9nntkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLssSax5U1wPQUg6rsqS5011bdwaKwXBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775029552322-ptjp3cttmk9gcmkmp547ut7icl9nntkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
